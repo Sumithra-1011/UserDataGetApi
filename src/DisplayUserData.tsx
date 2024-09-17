@@ -56,7 +56,7 @@ const DisplayUserData = () => {
   
     return (
       <>
-      <h2 style={{textAlign:'center',color:'blue'}}>User Data</h2>
+      <h2 style={{textAlign:'center',color:'blue',}}>User Data</h2>
         <Table
         dataSource={users} // Data from the API
         columns={columns}  // Table columns for name, username, and email
